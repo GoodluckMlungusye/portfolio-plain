@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Goodam's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link Swiper's CSS -->
+    <link rel="shortcut icon" href="images/icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- NAVIGATION BAR STARTS-->
+
+    <header>
+      <img src="images/moon.png" id="icon" alt="" />
+      <div class="icon-logo">
+        <a href="#" class="logo"><img src="images/banner-icon.png" alt=""></a>
+      </div>
+      <div class="menuToggle" onclick="toggleMenu();"></div>
+      <ul class="navigation">
+        <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu();">About</a></li>
+        <li><a href="#skills" onclick="toggleMenu();">Skills</a></li>
+        <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+        <li><a href="#contact" onclick="toggleMenu();">Contact me</a></li>
+      </ul>
+    </header>
+
+    <!-- NAVIGATION BAR ENDS -->
+
+    <!-- preloader -->
+
+    <div id="preloader"></div>
+
+    <!-- preloader -->
+
+    <!--HOME SECTION STARTS-->
+
+    <section class="banner" id="banner">
+      <div class="content">
+        <h2>Hi, I'm Goodluck</h2>
+        <h3 id="sayhi"></h3>
+        <p>
+          Skilled in web applications, mobile applications and enthusiastic in
+          UI/UX designing.
+        </p>
+
+        <a href="#about" class="btn">Get started</a>
+      </div>
+    </section>
+
+    <!-- HOME SECTION ENDS-->
+
+    <!-- ABOUT SECTION STARTS-->
+
+    <section class="about" id="about">
+      <div class="intro">
+        <h3><span>A</span>bout Me</h3>
+        <p>Goodluck Daniel Mlungusye</p>
+      </div>
+
+      <div class="education">
+        <img src="images/graduate.png" id="eduIcon" />
+        <p>Education</p>
+      </div>
+
+      <!-- education career -->
+
+      <div class="box-container">
+        <div class="inbox-container">
+          <div class="box">
+            <div class="image">
+              <img src="images/udsm.jpg" alt="" />
+            </div>
+            <div class="content">
+              <div class="icons">
+                <a href="#about"> 2020 - 2023 </a>
+              </div>
+              <h3>UDSM</h3>
+              <p>
+                <strong>Computer Science;</strong><span class="dots">...</span
+                ><span class="moreText">
+                  General skills on Computer programming, Computer networks,
+                  Database Management System, System analysis and designing,
+                  Computer Graphics, and Software engineering</span
+                >
+              </p>
+
+              <button class="btn">
+                <span class="more">read more </span>
+                <span class="less">read less </span>
+              </button>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/kibaha.jpg" alt="" />
+            </div>
+            <div class="content">
+              <div class="icons">
+                <a href="#about"> 2018 - 2020 </a>
+              </div>
+              <h3>Kibaha Secondary</h3>
+              <p>
+                <strong> ACSEE;</strong><span class="dots">...</span
+                ><span class="moreText">
+                  Advanced Certificate for Secondary Education Examination
+                  included Physics, Chemistry and Mathematics. Gained knowledge
+                  of natural things and their behaviours plus maths skills</span
+                >
+              </p>
+
+              <button class="btn">
+                <span class="more">read more </span>
+                <span class="less">read less </span>
+              </button>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/abbey.jpg" alt="" />
+            </div>
+            <div class="content">
+              <div class="icons">
+                <a href="#about"> 2014 - 2017 </a>
+              </div>
+              <h3>Abbey Secondary</h3>
+              <p>
+                <strong>CSEE;</strong><span class="dots">...</span
+                ><span class="moreText">
+                  Certificate of Secondary Education Examination gained general
+                  knowledge of various phenomena that exist in the real world,
+                  Political and Social Science skills to prepare one to resolve
+                  issues in the society
+                </span>
+              </p>
+
+              <button class="btn">
+                <span class="more">read more </span>
+                <span class="less">read less </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- education career  ends-->
+
+      <div class="cv-download">
+        <!--  <a href="keys.txt" download class="cv">Download CV <img src="images/download.png" alt=""></a> -->
+        <button class="cv" id="cv">
+          Download CV <img src="images/download.png" alt="" />
+        </button>
+      </div>
+
+      <div class="education">
+        <img src="images/explore.png" id="expIcon" />
+        <p>Explore More</p>
+      </div>
+
+      <!-- portfolio info -->
+
+      <div class="portfolio">
+        <div class="box-container-2">
+          <div class="box-2">
+            <img src="images/experience.png" alt="" />
+            <div class="content-2">
+              <h3>Years of experience</h3>
+              <h1>3+</h1>
+            </div>
+          </div>
+
+          <div class="box-2">
+            <img src="images/accomplish.png" alt="" />
+            <div class="content-2">
+              <h3>Projects accomplished</h3>
+              <h1>5+</h1>
+            </div>
+          </div>
+
+          <div class="box-2">
+            <img src="images/company.png" alt="" />
+            <div class="content-2">
+              <h3>Companies worked</h3>
+              <h1>2+</h1>
+            </div>
+          </div>
+
+          <div class="box-2">
+            <img src="images/clients.png" alt="" />
+            <div class="content-2">
+              <h3>Happy clients</h3>
+              <h1>30+</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION ENDS -->
+
+    <!-- SKILLS SECTION STARTS -->
+
+    <section class="skills" id="skills">
+      <div class="intro">
+        <h3><span>S</span>kills</h3>
+      </div>
+
+      <div class="skill-container">
+        <div class="skill">
+          <div class="skill-title">
+            <h2>Frontend skills</h2>
+          </div>
+          <div class="skill-img">
+            <img src="images/front.png" alt="" class="img" />
+          </div>
+          <div class="skill-rate">
+            <div class="skills-bar">
+              <div class="bar">
+                <div class="info">
+                  <span>HTML</span>
+                </div>
+                <div class="progress-line html"><span></span></div>
+              </div>
+
+              <div class="bar">
+                <div class="info">
+                  <span>Tailwind CSS</span>
+                </div>
+                <div class="progress-line css"><span></span></div>
+              </div>
+
+              <div class="bar">
+                <div class="info">
+                  <span>Vue.js</span>
+                </div>
+                <div class="progress-line javascript"><span></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-title">
+            <h2>Backend skills</h2>
+          </div>
+          <div class="skill-img">
+            <img src="images/back.png" alt="" class="img" />
+          </div>
+          <div class="skill-rate">
+            <div class="skills-bar">
+              <div class="bar">
+                <div class="info">
+                  <span>Java</span>
+                </div>
+                <div class="progress-line java"><span></span></div>
+              </div>
+
+              <div class="bar">
+                <div class="info">
+                  <span>PHP</span>
+                </div>
+                <div class="progress-line php"><span></span></div>
+              </div>
+
+              <div class="bar">
+                <div class="info">
+                  <span>Dart</span>
+                </div>
+                <div class="progress-line dart"><span></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-title">
+            <h2>Design skills</h2>
+          </div>
+          <div class="skill-img">
+            <img src="images/design.png" alt="" class="img" />
+          </div>
+          <div class="skill-rate">
+            <div class="skills-bar">
+              <div class="bar">
+                <div class="info">
+                  <span>Adobe XD</span>
+                </div>
+                <div class="progress-line xd"><span></span></div>
+              </div>
+
+              <div class="bar">
+                <div class="info">
+                  <span>Photoshop</span>
+                </div>
+                <div class="progress-line ps"><span></span></div>
+              </div>
+
+              <div class="bar">
+                <div class="info">
+                  <span>Figma</span>
+                </div>
+                <div class="progress-line figma"><span></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-title">
+            <h2>Miscellaneous skills</h2>
+          </div>
+          <div class="skill-img">
+            <img src="images/misc.png" alt="" class="img" />
+          </div>
+          <div class="skill-rate">
+            <div class="skills-bar">
+              <div class="bar">
+                <div class="info">
+                  <span>Flutter</span>
+                </div>
+                <div class="progress-line flutter"><span></span></div>
+              </div>
+
+              <div class="bar">
+                <div class="info">
+                  <span>Laravel</span>
+                </div>
+                <div class="progress-line laravel"><span></span></div>
+              </div>
+
+              <div class="bar">
+                <div class="info">
+                  <span>Spring</span>
+                </div>
+                <div class="progress-line spring"><span></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION ENDS -->
+
+    <!-- SERVICES SECTION STARTS -->
+
+    <section class="services" id="services">
+      <div class="intro">
+        <h3><span>S</span>ervices</h3>
+      </div>
+
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="box-srvc">
+              <div class="imgBx">
+                <img src="images/frontend.jpg" />
+              </div>
+              <div class="content-srvc">
+                <div>
+                  <h2>FRONTEND DEVELOPER</h2>
+                  <p>
+                    Expert in creating codes for user side applications by
+                    designing creative visual elements through which a user
+                    interact with an app
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="box-srvc">
+              <div class="imgBx">
+                <img src="images/backend.jpg" />
+              </div>
+              <div class="content-srvc">
+                <div>
+                  <h2>BACKEND DEVELOPER</h2>
+                  <p>
+                    Expert in creating codes for server side applications and
+                    databases for proper communication with the client side in
+                    web or mobile apps
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="box-srvc">
+              <div class="imgBx">
+                <img src="images/ui.jpg" id="uiIcon" />
+              </div>
+              <div class="content-srvc">
+                <div>
+                  <h2>UI/UX DESIGNER</h2>
+                  <p>
+                    Expert in gathering user requirements for designing
+                    interactive and attractive graphic views for the web and
+                    mobile apps
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION ENDS -->
+
+    <!-- CONTACT SECTION STARTS -->
+
+    <section class="contact" id="contact">
+      <div class="intro">
+        <h3><span>C</span>ontact Me</h3>
+      </div>
+
+      <div class="location">
+        <img src="images/location.png" id="locIcon" />
+        <p>My location</p>
+      </div>
+
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8156.12329915699!2d39.23594146269858!3d-6.773839428076186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4e9e55555555%3A0x31c34ce3703cc9eb!2sCollege%20of%20Information%20and%20Communication%20Technologies%20(CoICT)%20-%20University%20of%20Dar%20es%20salaam!5e0!3m2!1sen!2stz!4v1665498035154!5m2!1sen!2stz"
+          width="1515"
+          height="500"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+
+      <div class="contact-container">
+        <div class="contact-box">
+          <div class="contact-title">
+            <h1>get in touch</h1>
+          </div>
+        </div>
+
+        <div class="contact-box">
+          <div class="contact-data">
+            <div class="description">
+              <p>Feel free to reach me via my contacts for any new projects</p>
+            </div>
+
+            <div class="detail">
+              <div class="detail-icon">
+                <img src="images/email.png" id="emailIcon" />
+              </div>
+
+              <div class="detail-info">
+                <h2>Email:</h2>
+                <a href="mailto:goodam198@gmail.com">goodam198@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="detail">
+              <div class="detail-icon2">
+                <img src="images/phone.png" id="phoneIcon" />
+              </div>
+
+              <div class="detail-info">
+                <h2>Phone:</h2>
+                <a href="">+255 684 116 567</a>
+              </div>
+            </div>
+
+            <div class="media-detail">
+              <div class="media-icon">
+                <a href="https://www.twitter.com">
+                  <img src="images/twitter.png" alt="" class="twitter" />
+                </a>
+              </div>
+
+              <div class="media-icon">
+                <a
+                  href="https://www.linkedin.com/in/goodluck-daniel-901963214/"
+                >
+                  <img src="images/linkedin.png" alt="" class="linkedin" />
+                </a>
+              </div>
+
+              <div class="media-icon">
+                <a href="https://github.com/Goodam198">
+                  <img src="images/github.png" alt="" class="github" />
+                </a>
+              </div>
+            </div>
+
+            <div class="copyright">
+              <p>&copy; <span>Goodam Softs</span>. All rights reserved</p>
+            </div>
+          </div>
+
+          <div class="contact-inputs" id="form-inputs">
+            <form action="https://formspree.io/f/xgeqwprz" method="POST">
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Your name"
+                  required
+                />
+                <input
+                  type="text"
+                  name="number"
+                  id="number"
+                  placeholder="Your number"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Your e-mail"
+                  required
+                />
+                <input
+                  type="text"
+                  name="subject"
+                  id="subject"
+                  placeholder="Your subject"
+                  required
+                />
+              </div>
+
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="6"
+                placeholder="Your Message"
+                required
+              ></textarea>
+
+              <button type="submit" class="cv" name="submit" id="submit">
+                Send <img src="images/send.png" alt="" />
+              </button>
+            </form>
+
+            <div class="footer">
+              <div class="f-media-detail">
+                <div class="f-media-icon">
+                  <a href="https://www.twitter.com">
+                    <img src="images/twitter.png" alt="" class="f-twitter" />
+                  </a>
+                </div>
+
+                <div class="f-media-icon">
+                  <a
+                    href="https://www.linkedin.com/in/goodluck-daniel-901963214/"
+                  >
+                    <img src="images/linkedin.png" alt="" class="f-linkedin" />
+                  </a>
+                </div>
+
+                <div class="f-media-icon">
+                  <a href="https://github.com/Goodam198">
+                    <img src="images/github.png" alt="" class="f-github" />
+                  </a>
+                </div>
+              </div>
+
+              <div class="f-copyright">
+                <p>&copy; <span>Goodam Softs</span>. All rights reserved</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--To top button-->
+    <a href="#" class="to-top">
+      <img src="images/top.png" id="topIcon" />
+    </a>
+
+    <!-- CONTACT SECTION ENDS-->
+
+    <!-- linking js functions begin here -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="swiper.js"></script>
+
+    <script type="text/javascript">
+      if (window.history.replaceState) {
+        window.history.replaceState(null, null, window.location.href);
+      }
+    </script>
+
+    <!-- linking js functions ends here -->
+
+    <!-- THE END -->
+  </body>
+</html>
